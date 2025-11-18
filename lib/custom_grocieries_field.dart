@@ -32,6 +32,7 @@ class _CustomGroceriesFieldState extends State<CustomGroceriesField> {
       child: Row(
         children: [
           Transform.scale(
+            scale: 1.2,
             child: Checkbox(
               value: val,
               onChanged: (value) {
